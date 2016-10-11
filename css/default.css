@@ -1,0 +1,126 @@
+a{
+  color:#fff;
+}
+.page-wrapper .dark-box,
+.content pre, .content blockquote{
+  width: 45%;
+}
+.content pre{
+  padding: 0 28px;
+}
+.content>h1, .content>h2, .content>h3,
+.content>h4, .content>h5, .content>h6,
+.content>p, .content>table, .content>ul,
+.content>ol, .content>aside, .content>dl{
+  width: 55%;
+}
+.nav-stacked>li+li{
+  margin-top: 0;
+}
+.tocify-item{
+
+}
+blockquote{
+  font-size: inherit;
+  border: none;
+}
+pre{
+  border: none;
+  border-radius: 0;
+}
+.tocify-item:hover > a{
+  background-color: transparent;
+}
+.nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover{
+    transition: all linear 250ms;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  box-shadow: 0px 1px 0px #000;
+  background-color: #2467af;
+  transition: all linear 250ms;
+}
+.nav-pills>li>a{
+  border-radius: 0;
+}
+.tocify-wrapper .tocify-item>a, .tocify-wrapper .toc-footer li{
+  height: 28px;
+  line-height: 28px;
+}
+.nav{
+  width: 100%;
+}
+.affix{
+  position: relative;
+}
+.open>.dropdown-menu{
+  width: 100%;
+  transition: all ease-in 500ms;
+}
+.dropdown-menu li:hover a{
+  background-color: #2467af;
+}
+.open .tocify-item >a{
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+}
+.tocify-wrapper .tocify-subheader .tocify-item>a{
+  color: #fff;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+  background-color: #2467af;
+}
+.nav-pills>li:hover>a{
+  background: transparent;
+  color: #fff;
+}
+.open .nav-pills>li:hover>a{
+  background: transparent;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+  background: transparent;
+}
+.dropdown-toggle{
+  padding: 0 15px;
+}
+
+.active>.dropdown-menu,.open>.dropdown-menu {
+    display: block;;
+    transition: all linear 250ms;
+    border-radius: 0;
+}
+.tocify-subheader{
+  width: 100%;
+}
+.dropdown-menu{
+  position: relative;
+}
+.nav-pills>li.active>a:focus{
+background: transparent;
+}
+table{
+  font-size: 13px;
+}
+.tocify-item:hover{
+  background: #2467af;
+}
+
+
+.hljs-attr, .hljs-variable, .hljs-template-variable, .hljs-type, .hljs-selector-class, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-number  {
+    color: #f4bf75;
+}
+.hljs-string, .hljs-regexp, .hljs-addition, .hljs-attribute, .hljs-meta-string{
+    color: #90a959;
+}
+@media (max-width: 700px){
+  .page-wrapper .dark-box,
+  .content pre, .content blockquote{
+    width: 100%;
+  }
+  .content>h1, .content>h2, .content>h3,
+  .content>h4, .content>h5, .content>h6,
+  .content>p, .content>table, .content>ul,
+  .content>ol, .content>aside, .content>dl{
+    width: 100%;
+  }
+}
