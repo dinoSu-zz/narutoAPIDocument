@@ -3,7 +3,7 @@ a{
 }
 .page-wrapper .dark-box,
 .content pre, .content blockquote{
-  width: 45%;
+  width: 50%;
 }
 .content pre{
   padding: 0 28px;
@@ -12,7 +12,7 @@ a{
 .content>h4, .content>h5, .content>h6,
 .content>p, .content>table, .content>ul,
 .content>ol, .content>aside, .content>dl{
-  width: 55%;
+  width: 50%;
 }
 .nav-stacked>li+li{
   margin-top: 0;
